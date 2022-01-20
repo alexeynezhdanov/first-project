@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+  }
+  body {
+    width: 1280px;
+    color: #2f80ed;
+  }
+  main {
+    width: 420px;
+    height: 140px;
+    margin: 0px auto 380px;
+    text-align: center;
+    position: relative;
+  }
+  img {
+    width: 520px;
+    height: 190px;
+    display: flex;
+    margin: 110px auto 10px;
+  }
+  h1 {
+    font-size: 800%;
+    font-weight: normal;
+  }
+  h4 {
+    width: 420px;
+    margin: 0px auto 30px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 16px;
+  }
+  a {
+    color: #2f80ed; 
+    border-bottom: 1px;
+    text-decoration: underline;
+  }
+  .text404 {
+   display: inline-block;
+  }
+  .text404:hover::after { 
+    content: attr(p);
+    position: absolute;
+    left: 0px; top: 162px;
+    z-index: 1;
+    width: 420px;
+    font-size: 16px;
+    text-align: center;
+  }
+  carousel-item{height: 100%;min-height: 0px;
